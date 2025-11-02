@@ -1,0 +1,30 @@
+{
+  "name": "x-fav-bot",
+  "version": "1.0.0",
+  "description": "Automated Twitter/X like bot with rate limiting and safety features",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "save-session": "node src/save_session.js"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "automation",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "csv-parse": "^5.5.3",
+    "minimist": "^1.2.8",
+    "humanize-duration": "^3.31.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

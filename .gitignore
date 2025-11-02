@@ -1,0 +1,18 @@
+# runtime & secrets
+state.json
+processed.json
+bot.log
+.env
+.env.*
+*.log
+
+# node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# OS/editor trash
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
